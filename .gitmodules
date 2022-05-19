@@ -1,0 +1,6 @@
+[submodule "src/DataAccess"]
+	path = src/DataAccess
+	url = https://github.com/PLP-Data-automation/DataAccess.git
+[submodule "src/DataBase"]
+	path = src/DataBase
+	url = https://github.com/PLP-Data-automation/DataBase.git
