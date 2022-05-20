@@ -1,2 +1,2 @@
 build
-src/IIoT_PLP.egg-info/*
+*.egg-info
