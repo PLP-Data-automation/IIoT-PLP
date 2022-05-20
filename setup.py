@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name    = "IIoT-PLP",
-    version = "0.0.2",
+    version = "0.1.0",
     author  = "Fuentes Juvera, Luis & Sámano Ortega, Christian",
     author_email    = "luis.fuju@outlook.com",
     description     = "Python modulefor IIoT integration with Power BI",
@@ -28,6 +28,9 @@ setuptools.setup(
         "pycryptodome",
         "PyQt5",
         "pandas",
-        "matplotlib"
-    ]
+        "matplotlib",
+        "wheel"
+    ],
+    package_data={'': ['*.json', '*.png', "LICENSE"]},
+    include_package_data=True
 )
