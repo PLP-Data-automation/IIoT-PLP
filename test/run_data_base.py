@@ -18,3 +18,5 @@ if __name__ == "__main__":
     if not os.path.exists( "db" ):
         os.makedirs( "db" )
     log_from_files( LOCAL_PATH )
+    print( "Program finished!" )
+    os.system( "PAUSE" )

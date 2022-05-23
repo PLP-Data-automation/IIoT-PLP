@@ -42,3 +42,5 @@ if __name__ == "__main__":
 
   except UnboundLocalError:
     print( "Loading failed!" )
+  finally:
+    os.system( "PAUSE" )

@@ -24,4 +24,6 @@ if __name__ == "__main__":
         df_4 = pandas.read_sql( "SELECT * FROM TORCEDORA4", conn )
         df = pandas.concat( [ df_2, df_4 ] )
         df.to_csv( f"log/{filename}.csv" )
+    print( "Program finished!" )
+    os.system( "PAUSE" )
         
