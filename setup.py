@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name    = "IIoT-PLP",
-    version = "1.0.0",
+    version = "1.0.1",
     author  = "Fuentes Juvera, Luis & Sámano Ortega, Christian",
     author_email    = "luis.fuju@outlook.com",
     description     = "Python modulefor IIoT integration with Power BI",
