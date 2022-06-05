@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     print( timestamp )
 
-  except UnboundLocalError:
+  except Exception:
     print( "Loading failed!" )
   finally:
     os.system( "PAUSE" )

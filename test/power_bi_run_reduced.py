@@ -16,5 +16,5 @@ if __name__ == "__main__":
       results = run_query()
       df = results["reduced"]
       print( df )
-  except UnboundLocalError:
+  except Exception:
       print( "Loading failed!" )
